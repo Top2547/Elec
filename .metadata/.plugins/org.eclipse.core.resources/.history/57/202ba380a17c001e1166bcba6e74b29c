@@ -1,9 +1,9 @@
 /* USER CODE BEGIN Header */
 /**
-  ******************************************************************************
+  ****************************************************************************
   * @file           : main.c
   * @brief          : Main program body
-  ******************************************************************************
+  ****************************************************************************
   * @attention
   *
   * Copyright (c) 2023 STMicroelectronics.
@@ -13,7 +13,7 @@
   * in the root directory of this software component.
   * If no LICENSE file comes with this software, it is provided AS-IS.
   *
-  ******************************************************************************
+  ****************************************************************************
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
@@ -156,7 +156,7 @@ int main(void)
 	  	  		  continue;
 	  	  		  }
 	  	  	  }
-	  else if (ButtonState == 8)
+	  else if (ButtonState == 😎
 	  	  	  {
 	  	  		  stunum[i] = 0;
 	  	  		  i++;
@@ -479,10 +479,10 @@ void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
-//  __disable_irq();
-//  while (1)
-//  {
-//  }
+  __disable_irq();
+  while (1)
+  {
+  }
   /* USER CODE END Error_Handler_Debug */
 }
 
